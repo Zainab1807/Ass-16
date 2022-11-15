@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+                   // ------- EXCERCISE 1 -------
+
+        let categories = ["Health" , "Fashion" , "Toys" , "Electronics" , "TV" , "Sports" , "Watches" , "Motorbike" , "Home and Lifestyle" , "Devices"]
+        // console.log(categories);
+        let categories_firsthalf = categories.slice(0,5)
+        console.log(categories_firsthalf);
+
+                    // ------- EXCERCISE 2 -------
+        str1 = ["Apple" , "Banana" , "Orange" ,"Grapes"]
+        str2 = ["abc" , "def" , "ghi" , "jkl"]
+        // console.log(str1,str2);
+        str3 = str1.slice(1,4).concat(str2.slice(1,4));
+        console.log(str3);
+
+                    // ------- EXCERCISE 3 -------
+        let array1 = (a,b)=>{
+            return a-b
+        }
+        let NumericArray = ['80' , '9' , '700', 40 , 1 , 5 , 200]
+        // console.log(NumericArray);
+        NumericArray.sort(array1);
+        console.log(NumericArray);
+
+                    // ------- EXCERCISE 4 -------
+        let months = ["Jan" , "March" , "April" , "Dec"]
+        // console.log(months);
+        months.splice(3,1,"May" , "June")
+        console.log(months);
+
+                    // ------- EXCERCISE 5 -------
+        let joinarr = ["Me", "my family"]
+        // console.log(joinarr);
+        name = joinarr.join(" and ");
+        console.log(name);
+
+
+                    // ------- EXCERCISE 6 -------
+        let num = 17;
+        if (num >2 && num <10) {
+          console.log("number is between 2 and 10");
+        } else if (num >10 && num <19) {
+           console.log("number is between 10 and 19");
+        } else if (num >19 && num <30) {
+           console.log("number is between 19 and 29");
+        } else {
+        console.log("sorry try again");
+        }
+
+    </script>
+</body>
+
+</html>
